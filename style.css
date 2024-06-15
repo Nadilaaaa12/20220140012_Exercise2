@@ -1,0 +1,86 @@
+/* Gaya umum untuk semua halaman */
+body {
+    padding-top: 50px;
+    background-image: url('Homepage-Store-Internal-scaled-1.jpg'); /* Gambar latar belakang umum */
+    background-size: cover; /* Menutupi seluruh halaman */
+    background-attachment: fixed; /* Tetap saat di-scroll */
+    font-family: Arial, sans-serif;
+    color: black; /* Warna teks umum */
+}
+.container {
+    max-width: 800px;
+    background-color: #ffffff; /* Warna latar belakang container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk container */
+    border-radius: 8px; /* Sudut membulat untuk container */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: pink; /* Warna latar belakang header */
+    color: black; /* Warna teks header */
+    padding: 10px;
+    border-radius: 8px 8px 0 0; /* Sudut membulat untuk bagian atas header */
+}
+
+.content {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #e9ecef; /* Warna latar belakang konten */
+    border-radius: 8px; /* Sudut membulat untuk konten */
+}
+
+.survey-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.survey-button a {
+    background-color: #28a745; /* Warna latar belakang tombol survey */
+    color: #ffffff; /* Warna teks tombol */
+    padding: 10px 20px;
+    border-radius: 8px; /* Sudut membulat untuk tombol */
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.survey-button a:hover {
+    background-color: #218838; /* Warna latar belakang tombol saat dihover */
+}
+
+.media-content h2 {
+    margin-top: 20px;
+    background-color: pink; /* Warna latar belakang judul media */
+    color: black; /* Warna teks judul media */
+    padding: 10px;
+    border-radius: 8px; /* Sudut membulat untuk judul media */
+}
+
+/* Gaya khusus untuk halaman survey */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+form .form-group input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    width: 100%;
+}
+
+form button {
+    background-color: #007bff; /* Warna latar belakang tombol submit */
+    color: #ffffff; /* Warna teks tombol */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px; /* Sudut membulat untuk tombol */
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
